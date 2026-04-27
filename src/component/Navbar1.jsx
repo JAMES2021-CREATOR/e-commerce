@@ -12,9 +12,9 @@ export default function Navbar1() {
   };
 
   return (
-    <header className="bg-black text-white border-b border-red-600 sticky top-0 z-50">
+    <header className="bg-black text-white border-b border-red-600 fixed top-0 z-50 w-full ">
       
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4 ">
 
         {/* LOGO */}
         <h1 className="text-red-600 font-bold text-2xl tracking-[4px]">

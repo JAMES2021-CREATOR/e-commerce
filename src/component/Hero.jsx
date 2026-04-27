@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="h-[90vh] relative flex items-center justify-center text-center overflow-hidden bg-black text-white">
+    <section className="h-[90vh] relative flex items-center justify-center text-center overflow-hidden bg-black text-whitept-20">
 
       {/* Background Image */}
       <div
