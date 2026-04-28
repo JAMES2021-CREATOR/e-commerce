@@ -71,6 +71,12 @@ export default function Navbar1() {
               </div>
             )}
           </div>
+           <span
+            onClick={() => handleSelect("Payment")}
+            className="cursor-pointer hover:text-red-500"
+          >
+            Payment
+          </span>
 
           <span
             onClick={() => handleSelect("contact")}
@@ -126,6 +132,10 @@ export default function Navbar1() {
               </div>
             )}
           </div>
+        
+          <span onClick={() => handleSelect("Payment")}>
+          Payment
+          </span>
 
           <span onClick={() => handleSelect("contact")}>
             Contact
