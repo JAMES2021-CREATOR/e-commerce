@@ -18,7 +18,7 @@ export default function Hero() {
 
       {/* Animated floating glow effect */}
       <motion.div
-        className="absolute w-[400px] h-[400px] bg-red-600/20 blur-[120px] rounded-full"
+        className="absolute w-100 h-100 bg-red-600/20 blur-[120px] rounded-full"
         animate={{ x: [0, 50, -50, 0], y: [0, -30, 30, 0] }}
         transition={{ duration: 10, repeat: Infinity }}
       />

@@ -46,7 +46,7 @@ export default function PromoBanner() {
             <img
               src="/images/Trendclock.jpeg"
               alt="Promo"
-              className="w-[280px] md:w-[350px] object-contain hover:scale-105 transition duration-500 rounded-lg"
+              className="w-70 md:w-87.5 object-contain hover:scale-105 transition duration-500 rounded-lg"
             />
           </div>
 

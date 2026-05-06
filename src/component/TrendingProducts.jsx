@@ -27,7 +27,7 @@ export default function TrendingProducts() {
           {[...trendingProducts, ...trendingProducts].map((product, index) => (
             <div
               key={index}
-              className="min-w-[250px] bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden"
+              className="min-w-62.5 bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden"
             >
               {/* Image */}
               <img
