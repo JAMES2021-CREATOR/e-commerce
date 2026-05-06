@@ -23,7 +23,7 @@ export default function Newsletter() {
         <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900 px-6 md:px-12 py-14">
 
           {/* subtle glow */}
-          <div className="absolute inset-0 bg-gradient-to-r from-red-600/10 via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-linear-to-r from-red-600/10 via-transparent to-transparent"></div>
 
           <div className="relative flex flex-col md:flex-row items-center justify-between gap-10">
 
