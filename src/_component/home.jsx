@@ -1,10 +1,21 @@
 import React from 'react'
+import Hero from '../component/Hero'
+import Categories from '../component/Categories'
+import TrendingProducts from '../component/Trendingproducts'
+import PromoBanner from '../component/PromoBanner'
+import Newsletter from '../component/Newsletter'
 
-function home() {
-  return  (
-    <App/>
+function Home() {
+  return (
+    <div>
+        <Hero/>
+        <Categories/>
+        <TrendingProducts/>
+        <PromoBanner/>
+        <Newsletter/>
+        
+    </div>
   )
 }
-import App from '../App'
-import { IdCard } from 'lucide-react'
-export default home
+
+export default Home

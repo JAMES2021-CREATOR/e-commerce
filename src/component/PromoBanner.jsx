@@ -1,3 +1,4 @@
+'use client';
 export default function PromoBanner() {
   return (
     <section className="py-16 px-6 bg-black">

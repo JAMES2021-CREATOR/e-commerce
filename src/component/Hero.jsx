@@ -1,8 +1,10 @@
+'use client';
+
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section id="home" className="h-[90vh] relative flex items-center justify-center text-center overflow-hidden bg-black text-white pt-20">
+    <section id="Home" className="h-[90vh] relative flex items-center justify-center text-center overflow-hidden bg-black text-white pt-20">
 
       {/* Background Image */}
       <div
