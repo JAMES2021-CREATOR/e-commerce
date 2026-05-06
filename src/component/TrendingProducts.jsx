@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { trendingProducts } from "../data/products";
+import { trendingProducts } from "../data/Products";
 
 export default function TrendingProducts() {
   return (
